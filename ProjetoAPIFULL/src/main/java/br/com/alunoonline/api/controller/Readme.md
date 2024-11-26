@@ -55,16 +55,4 @@ Gerencia professores, atualmente com suporte à criação de registros.
 ## Resumo da Estrutura
 
 O projeto segue uma arquitetura modular organizada, com responsabilidades claramente definidas para cada camada. A camada **controller** se comunica diretamente com a camada **service**, garantindo que as regras de negócio e a lógica de persistência sejam mantidas fora dos controladores. Essa separação facilita a escalabilidade, manutenção e testes do sistema.
-
-## Como Rodar o Projeto
-
-1. Clone o repositório para sua máquina local.
-2. Certifique-se de ter o Java 11+ e o Spring Boot configurados.
-3. Compile o projeto com Maven ou Gradle:
-    - Para Maven: `mvn clean install`
-    - Para Gradle: `gradle build`
-4. Execute a aplicação conforme as instruções do projeto.
-
-## Licença
-
 Este projeto está licenciado sob a MIT License - consulte o arquivo LICENSE para mais detalhes.
